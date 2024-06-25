@@ -1,0 +1,392 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.bg_color{
+    width: 100%;
+    height: 10px;
+    background-color: rgb(184, 184, 184);
+}
+.container {
+    margin: auto 100px;
+    padding: 12px 0px;
+}
+
+li {
+    list-style: none;
+}
+
+.registration {
+    width: 50%;
+    padding: 20px;
+    display: block;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 120px;
+    margin-right: auto;
+    margin-left: auto;
+    border: 2px solid black;
+    margin-top: 5rem;
+}
+.color{
+    width: 100%;
+    background-color: rgb(230, 230, 230);
+    height: 600px;
+    padding: 20px;
+}
+input {
+    width: 500px;
+    height: 40px;
+    margin-top: 1rem;
+    padding: 8px;
+}
+
+button {
+    padding: 10px 40px;
+    margin-top: 2rem;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    border-bottom: 1px solid black;
+}
+
+.main_page {
+    border: 1px solid black;
+    width: 70%;
+    height: auto;
+    /* padding: 5px; */
+    margin: 50px auto;
+}
+
+.col_btn button {
+    padding: 10px 20px;
+    margin: 0;
+    font-weight: bold;
+}
+
+.col {
+    padding: 8px;
+    width: auto;
+    font-size: 25px;
+    margin-left: 1rem;
+    border: 1px solid black;
+    letter-spacing: 2px;
+}
+
+.Manegment {
+    display: flex;
+    align-items: center;
+    margin-top: 5rem;
+    margin-left: 25rem;
+    width: 500px;
+}
+
+.Regis_panel {
+    border: 10px solid black;
+    width: 500px;
+    height: 350px;
+    font-size: 25px;
+    text-decoration: underline;
+}
+
+.Login_panel {
+    border: 10px solid black;
+    width: 500px;
+    height: 350px;
+    margin-top: 2rem;
+    font-size: 25px;
+    text-decoration: underline;
+}
+
+.Main_panel {
+    border: 10px solid black;
+    width: 500px;
+    height: 350px;
+    font-size: 25px;
+    text-decoration: underline;
+}
+
+
+.Aadhar_Card {
+    border: 10px solid black;
+    width: 500px;
+    height: 350px;
+    margin-top: 2rem;
+    font-size: 25px;
+    text-decoration: underline;
+
+}
+
+.Panel_col1 {
+    margin-left: 2rem;
+}
+
+.Card {
+    width: 50%;
+    padding: 20px;
+    display: block;
+    text-align: center;
+    margin-top: 100px;
+    margin-right: auto;
+    margin-left: auto;
+    border: 2px solid black;
+}
+
+.Servises {
+    width: 450px;
+}
+
+.Servises li {
+    text-align: center;
+    border: 1px solid black;
+    padding: 20px;
+}
+
+.Servises a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.text {
+    display: flex;
+}
+
+.text2 {
+    display: flex;
+}
+
+.text2 li {
+    width: auto;
+    padding: 8px;
+    margin-top: 2rem;
+    margin-left: 8rem;
+    margin-bottom: 10px;
+    border: 1px solid black;
+}
+
+.Info {
+    width: 1000px;
+    padding: 20px;
+}
+
+.Info p {
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+.Info h2 {
+    text-decoration: underline;
+}
+
+.Info input {
+    width: 15px;
+    height: 15px;
+}
+
+.help {
+    padding: 25px;
+}
+
+.help_text {
+    margin-top: 1rem;
+}
+
+.help_text li {
+    list-style: disc;
+    font-size: 20px;
+    margin-top: 1rem;
+    margin-left: 1.5rem;
+}
+
+.help_text li span {
+    font-weight: 700;
+}
+
+.help_text2 {
+    width: 100%;
+    height: 135px;
+    margin-top: 1rem;
+    overflow: hidden;
+}
+
+.help_text2 li {
+    list-style: disc;
+}
+
+.helping {
+    width: 100%;
+    height: 135px;
+    overflow-x: scroll;
+    overflow-x: auto;
+}
+
+.helping li {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 1.5rem;
+    letter-spacing: 1px;
+}
+
+
+.heading_text {
+    font-size: 25px;
+    text-align: center;
+    margin-top: 2rem;
+    font-weight: 900;
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+    width: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.logo {
+    text-align: center;
+    color: white;
+}
+
+.header {
+    /* position: fixed; */
+    top: 0;
+    left: 0;
+    z-index: 9;
+    width: 100%;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #004987;
+}
+
+.navbar a {
+    font-size: 18px;
+    color: white;
+    font-weight: 600;
+    margin-left: 3.5rem;
+}
+
+.item img {
+    width: 100% !important;
+    height: 800px;
+    object-fit: cover !important;
+    background-position: bottom;
+    /* display: block; */
+    position: relative;
+}
+
+.item_text {
+    position: absolute;
+    z-index: 999;
+    top: 15rem;
+    left: 15rem;
+}
+
+.item_text h1 {
+    text-transform: capitalize;
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.item_text h2 {
+    text-align: center;
+}
+
+.owl_text {
+    position: absolute;
+    z-index: 999;
+    top: 10rem;
+    left: 5rem;
+    display: flex;
+}
+
+.owl_text2 {
+    margin-left: 5rem;
+}
+
+.owl_text li {
+    font-size: 25px;
+    text-transform: capitalize;
+    list-style: disc;
+    margin-top: 2rem;
+}
+
+.item_icon_text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4rem;
+}
+
+.item_icon_text p {
+    font-size: 22px;
+    text-transform: capitalize;
+    border-left: 4px solid black;
+    padding: 10px;
+}
+
+
+.item_col1 img {
+    width: 100% !important;
+    height: 800px;
+    object-fit: cover !important;
+}
+
+.footer {
+    background-color: #004987;
+    width: 100%;
+    height: 200px;
+}
+
+.section {
+    color: rgb(198, 196, 196);
+}
+
+.section_col {
+    width: 500px;
+    margin-left: 48rem;
+    margin-top: 100px;
+}
+
+.section_col p {
+    font-size: 18px;
+    letter-spacing: 2px;
+}
+
+.section_col ul {
+    display: flex;
+}
+
+.section_col li {
+    font-size: 35px;
+    background-color: white;
+    margin-top: 2rem;
+    color: black;
+    width: 40px;
+    height: 40px;
+    padding: 2px;
+    border-radius: 10px;
+    margin-left: 2.5rem;
+    margin-top: 5rem;
+}
+
+.section_text ul {
+    display: flex;
+    margin-left: 42rem;
+    margin-bottom: 5px;
+}
+.section_text li{
+    margin-left: 3rem;
+    margin-top: 3rem;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: underline;
+}
